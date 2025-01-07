@@ -10,6 +10,7 @@ body{
     align-items: center;
     width: 100%;
     height: 100vh;
+    background: linear-gradient(deeppink,rgb(0, 182, 55));
 }
 .container{
     width: 300px;
