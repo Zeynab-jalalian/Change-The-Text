@@ -25,6 +25,7 @@ body{
 .container p{
     margin: 10px 0;
     font-size: 22px;
+    text-align: center;
 }
 .container button{
     width: 60px;
