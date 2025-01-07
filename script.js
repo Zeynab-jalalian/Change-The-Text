@@ -14,10 +14,10 @@ let arr=['میشه یه خواهشی ازت کنم؟',
 ]
 let index=0;
 btn.addEventListener('click',function(){
-    text.innerHTML=arr[index]
-
+   if(index<arr.length){
+    text.innerHTML=arr[index];
     index++;
-    if(index>= arr.length){
-    index=0;
-    }
+   }else{
+    text.innerHTML=':)'
+   }
 })
